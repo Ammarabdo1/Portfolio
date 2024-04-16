@@ -1,0 +1,964 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.LoaderPage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #070707;
+}
+
+.website {
+  background-color: #070707;
+}
+
+.MainNavbar {
+  background-color: transparent !important;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.MainNavbar .NavbarToggler {
+  background-color: rgba(248, 118, 101, 0.5137254902);
+}
+.MainNavbar .navbar img {
+  width: 100px;
+}
+.MainNavbar .navbar .navLink {
+  font-size: 1.2rem;
+  color: #d6d6d6;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.MainNavbar .navbar .navLink:hover {
+  color: #f87665;
+  transform: scale(1.1);
+}
+
+.Header {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header .Left {
+  display: flex;
+  align-items: center;
+}
+.Header .Left p {
+  font-weight: 600;
+  color: #f87665;
+  line-height: 0px;
+}
+.Header .Left p span {
+  color: #ffffff;
+}
+.Header .Left h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  line-height: 75px;
+}
+.Header .Left h4 {
+  color: #d6d6d6;
+}
+.Header .Left button {
+  margin-top: 30px;
+  padding: 5px 20px;
+  background-color: #f87665;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.Header .Right .AllImages {
+  position: relative;
+}
+.Header .Right .AllImages .MainImg {
+  position: absolute;
+  width: 400px;
+  right: 70px;
+  top: 50px;
+}
+.Header .Right .AllImages .WaveImg {
+  width: 500px;
+}
+.Header .Right .AllImages .SmallImg1 {
+  position: absolute;
+  width: 40px;
+}
+.Header .Right .AllImages .SmallImg2 {
+  position: absolute;
+  width: 40px;
+}
+.Header .Right .AllImages .SmallImg3 {
+  position: absolute;
+  width: 40px;
+}
+.Header .Right .AllImages .bgImg1 {
+  background-color: rgba(248, 118, 101, 0.2117647059);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  left: 45px;
+  top: 260px;
+}
+.Header .Right .AllImages .bgImg2 {
+  background-color: rgba(248, 118, 101, 0.2117647059);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  right: 90px;
+  bottom: 100px;
+}
+.Header .Right .AllImages .bgImg3 {
+  background-color: rgba(248, 118, 101, 0.2117647059);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  right: 200px;
+  top: 50px;
+}
+
+.sec1 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 .Left .AllImagesSec1 {
+  position: relative;
+}
+.sec1 .Left .AllImagesSec1 .WaveImages {
+  transform: rotate(23deg);
+  width: 630px;
+}
+.sec1 .Left .AllImagesSec1 .PositionImagesSec1 {
+  position: absolute;
+  width: 500px;
+  left: 130px;
+  top: 153px;
+}
+.sec1 .Right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 .Right .buttonSec1 {
+  color: #ffffff;
+  border: 1px solid #f87665;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 5px 20px;
+  transition: all 0.3s ease;
+}
+.sec1 .Right .buttonSec1:hover {
+  background-color: rgba(248, 118, 101, 0.5137254902);
+  color: #d6d6d6;
+}
+.sec1 .Right h4 {
+  color: #ffffff;
+  margin-top: 20px;
+  line-height: 35px;
+}
+
+.sec2 {
+  min-height: 80vh;
+  margin-top: 50px;
+}
+.sec2 .top {
+  margin-bottom: 70px;
+  margin-left: 100px;
+}
+.sec2 .top h1 {
+  color: #ffffff;
+  font-size: 3rem;
+}
+.sec2 .top h1 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgba(248, 118, 101, 0.5137254902);
+  transition: all 0.3s ease;
+}
+.sec2 .top h1 a:hover {
+  color: #f87665;
+}
+.sec2 .swiperJs .swiper-pagination-bullet {
+  background-color: #f87765;
+  height: 15px;
+  width: 15px;
+}
+.sec2 .swiperJs .swiper-pagination {
+  bottom: 0 !important;
+}
+.sec2 .swiperJs .swiper {
+  padding: 0px 20px;
+  width: 100%;
+  height: 50vh;
+}
+.sec2 .swiperJs .swiper .swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 .swiperJs .swiper .swiper-slide img {
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sec3 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+.sec3 .bg {
+  position: absolute;
+  transform: rotate(20deg);
+  width: 560px;
+  left: 30%;
+}
+.sec3 h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 80px;
+}
+.sec3 .cardss .Left .cardd {
+  border-radius: 10px;
+  background-color: rgba(225, 188, 183, 0.2117647059);
+  padding: 10px 20px;
+  padding-right: 30px;
+  display: flex;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  margin-bottom: 130px;
+  margin-left: 100px;
+}
+.sec3 .cardss .Left .cardd img {
+  width: 70px;
+  margin-right: 20px;
+}
+.sec3 .cardss .Left .cardd .diffImg {
+  width: 50px;
+}
+.sec3 .cardss .Left .cardd .text h6 {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.sec3 .cardss .Left .cardd .text p {
+  color: #ffffff;
+}
+.sec3 .cardss .Right {
+  margin-top: 110px;
+}
+.sec3 .cardss .Right .cardd {
+  border-radius: 10px;
+  background-color: rgba(248, 118, 101, 0.2117647059);
+  padding: 10px 20px;
+  display: flex;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  margin-bottom: 130px;
+  margin-right: 100px;
+}
+.sec3 .cardss .Right .cardd img {
+  width: 70px;
+  margin-right: 20px;
+}
+.sec3 .cardss .Right .cardd .text h6 {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.sec3 .cardss .Right .cardd .text p {
+  color: #ffffff;
+}
+
+.sec4 {
+  min-height: 100vh;
+  width: 100%;
+}
+.sec4 .headH1 h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.sec4 .cards .myCard {
+  height: 550px;
+  width: 410px;
+  padding: 20px 10px;
+  background-color: rgba(248, 118, 101, 0.2117647059);
+  margin-left: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.sec4 .cards .myCard .component {
+  width: 100%;
+}
+.sec4 .cards .myCard .component h5 {
+  font-size: 1.2rem;
+  color: #f87665;
+  text-align: center;
+}
+.sec4 .cards .myCard .component h2 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.sec4 .cards .myCard .component img {
+  margin-top: 20px;
+  width: 300px;
+  margin-left: 10%;
+}
+.sec4 .cards .myCard .component p {
+  position: absolute;
+  color: #d6d6d6;
+  text-align: center;
+  top: 420px;
+}
+
+.sec5 {
+  min-height: 100vh;
+}
+.sec5 .h1head {
+  margin: 60px 0px;
+  color: #ffffff;
+  text-align: center;
+}
+.sec5 .All .Data-left {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+.sec5 .All .Data-left h4 {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.sec5 .All .Data-left h4 span {
+  color: #f87665;
+  margin-right: 10px;
+}
+.sec5 .All .Form-right .Text {
+  color: #ffffff;
+  width: 300px;
+  border: none;
+  margin: 20px 0;
+  margin-right: 10px;
+  outline: none;
+  border: 1px solid rgba(248, 118, 101, 0.5137254902);
+  border-radius: 60px;
+  padding: 10px 16px;
+  background-color: transparent;
+}
+.sec5 .All .Form-right input::-moz-placeholder, .sec5 .All .Form-right textarea::-moz-placeholder {
+  color: #d6d6d6;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+}
+.sec5 .All .Form-right input::placeholder, .sec5 .All .Form-right textarea::placeholder {
+  color: #d6d6d6;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+}
+.sec5 .All .Form-right .Massage {
+  color: #ffffff;
+  width: 98%;
+  border: none;
+  margin: 20px 0;
+  margin-right: 10px;
+  outline: none;
+  border: 1px solid rgba(248, 118, 101, 0.5137254902);
+  border-radius: 60px;
+  padding: 10px 16px;
+  background-color: transparent;
+}
+.sec5 .All .Form-right .Submit {
+  color: #ffffff;
+  background-color: rgba(248, 118, 101, 0.5137254902);
+  text-align: center;
+  width: 250px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+.sec5 .All .Form-right .Submit:hover {
+  color: #f87665;
+  background-color: #ffffff;
+}
+
+footer {
+  padding-bottom: 50px;
+}
+footer .MainFooter .Footer-left img {
+  width: 100px;
+}
+footer .MainFooter .Footer-mid {
+  width: 40%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+footer .MainFooter .Footer-mid span {
+  margin-right: 20px;
+}
+footer .MainFooter .Footer-right {
+  width: 220px;
+  margin-left: auto;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #d6d6d6;
+  transition: all 0.5s ease;
+}
+footer .MainFooter .Footer-right .icon {
+  transition: all 0.3s ease;
+}
+footer .MainFooter .Footer-right .icon:hover {
+  color: #f87665;
+  transform: scale(1.1);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Header .Right .AllImages .MainImg {
+    right: 0px;
+    top: 50px;
+  }
+  .Header .Right .AllImages .bgImg1 {
+    left: 40px;
+    top: 260px;
+  }
+  .Header .Right .AllImages .bgImg2 {
+    right: 20px;
+    bottom: 100px;
+  }
+  .Header .Right .AllImages .bgImg3 {
+    right: 120px;
+    top: 50px;
+  }
+  .sec1 .Left .AllImagesSec1 .WaveImages {
+    width: 550px;
+  }
+  .sec1 .Left .AllImagesSec1 .PositionImagesSec1 {
+    width: 450px;
+    left: 100px;
+    top: 130px;
+  }
+  .sec4 .cards .myCard {
+    width: 350px;
+  }
+  .sec4 .cards .myCard .component h2 {
+    font-size: 1.6rem;
+  }
+  .sec4 .cards .myCard .component img {
+    margin-top: 30px;
+    width: 270px;
+    margin-left: 10%;
+  }
+  .sec4 .cards .myCard .component p {
+    top: 400px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Header .Right .AllImages .MainImg {
+    left: 60px;
+    top: 50px;
+  }
+  .Header .Right .AllImages .bgImg1 {
+    left: 50px;
+    top: 260px;
+  }
+  .Header .Right .AllImages .bgImg2 {
+    left: 360px;
+    bottom: 100px;
+  }
+  .Header .Right .AllImages .bgImg3 {
+    right: 50px;
+    top: 50px;
+  }
+  .Header .Left h1 {
+    font-size: 2.8rem;
+  }
+  .sec1 .Left .AllImagesSec1 .WaveImages {
+    width: 460px;
+  }
+  .sec1 .Left .AllImagesSec1 .PositionImagesSec1 {
+    width: 400px;
+    left: 60px;
+    top: 105px;
+  }
+  .sec4 .cards .myCard {
+    width: 300px;
+  }
+  .sec4 .cards .myCard .component h5 {
+    font-size: 1.2rem;
+  }
+  .sec4 .cards .myCard .component h2 {
+    font-size: 1.5rem;
+  }
+  .sec4 .cards .myCard .component img {
+    margin-top: 30px;
+    width: 230px;
+    margin-left: 10%;
+  }
+  .sec4 .cards .myCard .component p {
+    top: 380px;
+  }
+  footer .MainFooter .Footer-left {
+    width: 250px;
+  }
+  footer .MainFooter .Footer-mid {
+    width: 480px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 0.5rem;
+    margin-right: auto;
+  }
+  footer .MainFooter .Footer-mid span {
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Header .Right .AllImages .MainImg {
+    width: 300px;
+    left: 60px;
+    top: 50px;
+  }
+  .Header .Right .AllImages .WaveImg {
+    width: 400px;
+  }
+  .Header .Right .AllImages .SmallImg1 {
+    width: 30px;
+  }
+  .Header .Right .AllImages .SmallImg2 {
+    width: 30px;
+  }
+  .Header .Right .AllImages .SmallImg3 {
+    width: 30px;
+  }
+  .Header .Right .AllImages .bgImg1 {
+    width: 60px;
+    height: 60px;
+    left: 55px;
+    top: 210px;
+  }
+  .Header .Right .AllImages .bgImg2 {
+    width: 60px;
+    height: 60px;
+    left: 280px;
+    bottom: 90px;
+  }
+  .Header .Right .AllImages .bgImg3 {
+    width: 60px;
+    height: 60px;
+    left: 200px;
+    top: 50px;
+  }
+  .Header .Left h1 {
+    font-size: 2rem;
+  }
+  .sec1 .Left .AllImagesSec1 .WaveImages {
+    width: 350px;
+  }
+  .sec1 .Left .AllImagesSec1 .PositionImagesSec1 {
+    width: 300px;
+    left: 50px;
+    top: 78px;
+  }
+  .sec3 .bg {
+    width: 450px;
+    left: 25%;
+    top: 10%;
+  }
+  .sec3 .cardss .Left .cardd {
+    padding-right: 30px;
+    margin-left: 50px;
+    padding: 10px 10px;
+  }
+  .sec3 .cardss .Right {
+    margin-top: 110px;
+  }
+  .sec3 .cardss .Right .cardd {
+    padding: 10px 10px;
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+    margin-bottom: 130px;
+    margin-right: 50px;
+  }
+  .sec4 .cards .myCard {
+    width: 220px;
+  }
+  .sec4 .cards .myCard .component h5 {
+    font-size: 0.5rem;
+  }
+  .sec4 .cards .myCard .component h2 {
+    font-size: 1rem;
+  }
+  .sec4 .cards .myCard .component img {
+    margin-top: 55px;
+    width: 180px;
+    margin-left: 7%;
+  }
+  .sec4 .cards .myCard .component p {
+    top: 340px;
+  }
+  footer .MainFooter .Footer-left {
+    width: 150px;
+  }
+  footer .MainFooter .Footer-mid {
+    width: 420px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 0.5rem;
+    margin-right: auto;
+  }
+  footer .MainFooter .Footer-mid span {
+    margin-right: 0px;
+  }
+  footer .MainFooter .Footer-right {
+    width: 150px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .Header {
+    min-height: 900px;
+  }
+  .Header .Right {
+    display: flex;
+    justify-content: center;
+  }
+  .Header .Right .AllImages .MainImg {
+    width: 300px;
+    left: 60px;
+    top: 50px;
+  }
+  .Header .Right .AllImages .WaveImg {
+    width: 400px;
+  }
+  .Header .Right .AllImages .SmallImg1 {
+    width: 30px;
+  }
+  .Header .Right .AllImages .SmallImg2 {
+    width: 30px;
+  }
+  .Header .Right .AllImages .SmallImg3 {
+    width: 30px;
+  }
+  .Header .Right .AllImages .bgImg1 {
+    width: 60px;
+    height: 60px;
+    left: 55px;
+    top: 210px;
+  }
+  .Header .Right .AllImages .bgImg2 {
+    width: 60px;
+    height: 60px;
+    left: 280px;
+    bottom: 90px;
+  }
+  .Header .Right .AllImages .bgImg3 {
+    width: 60px;
+    height: 60px;
+    left: 200px;
+    top: 50px;
+  }
+  .Header .Left h1 {
+    font-size: 2rem;
+  }
+  .Header .Left button {
+    margin-bottom: 30px;
+  }
+  .sec1 .Left {
+    display: flex;
+    justify-content: center;
+  }
+  .sec1 .Left .AllImagesSec1 .WaveImages {
+    width: 460px;
+  }
+  .sec1 .Left .AllImagesSec1 .PositionImagesSec1 {
+    width: 400px;
+    left: 60px;
+    top: 105px;
+  }
+  .sec2 .top {
+    margin-left: 10px;
+  }
+  .sec2 .top h1 {
+    font-size: 2rem;
+  }
+  .sec2 .swiperJs .swiper {
+    width: 100%;
+    height: 50vh;
+  }
+  .sec2 .swiperJs .swiper .swiper-slide img {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .sec3 .bg {
+    width: 400px;
+    left: 15%;
+    top: 90px;
+  }
+  .sec3 .cardss .Left .cardd {
+    margin-left: 0px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  .sec3 .cardss .Right {
+    margin-top: 0px;
+  }
+  .sec3 .cardss .Right .cardd {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .sec4 .cards .myCard {
+    width: 510px;
+    margin-bottom: 30px;
+  }
+  .sec4 .cards .myCard .component h5 {
+    font-size: 1.2rem;
+  }
+  .sec4 .cards .myCard .component h2 {
+    font-size: 1.8rem;
+  }
+  .sec4 .cards .myCard .component img {
+    margin-top: 50px;
+    width: 300px;
+    margin-left: 19%;
+  }
+  .sec4 .cards .myCard .component p {
+    top: 430px;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  footer .MainFooter .Footer-left {
+    width: 120px;
+  }
+  footer .MainFooter .Footer-left img {
+    width: 90px;
+  }
+  footer .MainFooter .Footer-mid {
+    width: 400px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 0.5rem;
+    margin-left: auto;
+  }
+  footer .MainFooter .Footer-mid span {
+    margin-right: 0px;
+  }
+  footer .MainFooter .Footer-right {
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+  }
+  footer .MainFooter .Footer-right .icon {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .Header {
+    min-height: 900px;
+  }
+  .Header .Right {
+    display: flex;
+    justify-content: center;
+  }
+  .Header .Right .AllImages .MainImg {
+    width: 300px;
+    left: 60px;
+    top: 50px;
+  }
+  .Header .Right .AllImages .WaveImg {
+    width: 400px;
+  }
+  .Header .Right .AllImages .SmallImg1 {
+    width: 30px;
+  }
+  .Header .Right .AllImages .SmallImg2 {
+    width: 30px;
+  }
+  .Header .Right .AllImages .SmallImg3 {
+    width: 30px;
+  }
+  .Header .Right .AllImages .bgImg1 {
+    width: 60px;
+    height: 60px;
+    left: 55px;
+    top: 210px;
+  }
+  .Header .Right .AllImages .bgImg2 {
+    width: 60px;
+    height: 60px;
+    left: 280px;
+    bottom: 90px;
+  }
+  .Header .Right .AllImages .bgImg3 {
+    width: 60px;
+    height: 60px;
+    left: 200px;
+    top: 50px;
+  }
+  .Header .Left h1 {
+    font-size: 2rem;
+  }
+  .Header .Left button {
+    margin-bottom: 30px;
+  }
+  .sec1 .Left {
+    display: flex;
+    justify-content: center;
+  }
+  .sec1 .Left .AllImagesSec1 .WaveImages {
+    width: 460px;
+  }
+  .sec1 .Left .AllImagesSec1 .PositionImagesSec1 {
+    width: 400px;
+    left: 60px;
+    top: 105px;
+  }
+  .sec1 .Left {
+    display: flex;
+    justify-content: center;
+  }
+  .sec1 .Left .AllImagesSec1 .WaveImages {
+    width: 460px;
+  }
+  .sec1 .Left .AllImagesSec1 .PositionImagesSec1 {
+    width: 400px;
+    left: 60px;
+    top: 105px;
+  }
+  .sec2 .top {
+    margin-left: 10px;
+  }
+  .sec2 .top h1 {
+    font-size: 2rem;
+  }
+  .sec2 .swiperJs .swiper {
+    width: 100%;
+    height: 50vh;
+  }
+  .sec2 .swiperJs .swiper .swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2 .swiperJs .swiper .swiper-slide img {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .sec3 .bg {
+    width: 380px;
+    left: 15%;
+    top: 100px;
+  }
+  .sec3 .cardss .Left .cardd {
+    margin-left: 0px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  .sec3 .cardss .Right {
+    margin-top: 0px;
+  }
+  .sec3 .cardss .Right .cardd {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .sec4 .cards .myCard {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .sec4 .cards .myCard .component h5 {
+    font-size: 1.2rem;
+  }
+  .sec4 .cards .myCard .component h2 {
+    font-size: 1.8rem;
+  }
+  .sec4 .cards .myCard .component img {
+    margin-top: 50px;
+    width: 300px;
+    margin-left: 13%;
+  }
+  .sec4 .cards .myCard .component p {
+    top: 430px;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  footer .MainFooter .Footer-left {
+    width: 70px;
+  }
+  footer .MainFooter .Footer-left img {
+    width: 70px;
+  }
+  footer .MainFooter .Footer-mid {
+    width: 400px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 0.5rem;
+    margin-left: auto;
+  }
+  footer .MainFooter .Footer-mid span {
+    margin-right: 0px;
+  }
+  footer .MainFooter .Footer-right {
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+  }
+  footer .MainFooter .Footer-right .icon {
+    margin-left: 20px;
+  }
+}/*# sourceMappingURL=App.css.map */
