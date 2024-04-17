@@ -22,6 +22,7 @@ const Footer = () => {
                         <div className="icon"><FaFacebookSquare /></div>
                         <div className="icon"><IoLogoInstagram /></div>
                         <div className="icon"><BsLinkedin /> </div>                      
+                     
 
                 </Col>
             </Row>

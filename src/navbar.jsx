@@ -19,6 +19,7 @@ function NavScrollExample() {
             <HashLink className='navLink' to="/#action2">Services</HashLink>
             <HashLink className='navLink' to="/#action2">Contact Us</HashLink>
             <HashLink className='navLink' to="/#action2">Projects</HashLink>
+            <HashLink className='navLink' to="/#action2">More</HashLink>
 
           </Nav>
         </Navbar.Collapse>
